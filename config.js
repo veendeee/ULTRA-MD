@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '254742215053';
+const defaultOwner = '25474002378';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -19,8 +19,8 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'SHADOW MD';
-global.botNumber = '254742215053' //replace your bot number here
+global.botname = process.env.BOTNAME || 'ULTRA MD';
+global.botNumber = '254740022378' //replace your bot number here
 
 global.mods = []
 global.prems = []
